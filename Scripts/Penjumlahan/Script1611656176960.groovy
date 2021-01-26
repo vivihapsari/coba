@@ -17,5 +17,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WS.sendRequest(findTestObject('Penjumlahan'))
 
-response_1 = WS.sendRequestAndVerify(findTestObject('Penjumlahan'))
+WS.sendRequestAndVerify(findTestObject('Penjumlahan'))
 
